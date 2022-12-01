@@ -46,3 +46,29 @@ h2 {
     font-size: 30px;
     font-family: 'Space Mono', monospace;
 }
+
+.content-info p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+}
+
+button {
+    all: unset;
+    margin-top: 30px;
+    background-color: #333333;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 24px 43px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
