@@ -39,7 +39,6 @@ h2 {
 .content-img img {
     width: 539px;
     height: 447px;
-
 }
 
 .content-info h1 {
@@ -69,6 +68,23 @@ button {
 footer {
     margin-top: 100px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
+@media screen and (max-width: 480px){
+    .content-container {
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    .content-img img{
+        width: 286px;
+        height: 238px;
+    }
+
+    .content-info h1 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+}
