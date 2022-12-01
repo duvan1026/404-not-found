@@ -26,7 +26,6 @@ h2 {
     text-transform: uppercase;
     padding: 20px;
     font-weight: 700;
-
 }
 
 .content-container {
@@ -44,12 +43,14 @@ h2 {
 .content-info h1 {
     font-size: 30px;
     font-family: 'Space Mono', monospace;
+    text-align:center; 
 }
 
 .content-info p {
     margin-top: 30px;
     font-size: 20px;
     font-family: 'Space Mono', monospace;
+    
 }
 
 button {
@@ -85,6 +86,47 @@ footer {
     .content-info h1 {
         margin-top: 50px;
         font-size: 35px;
+        text-align:center; 
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    .content-container {
+        flex-direction: column;
+        justify-content: center;        
     }
 
+    .content-img img{
+        width: 600px;
+        /* height: 300px; */
+    }
+
+    .content-info h1 {
+        margin-top: 55px;
+        font-size: 40px;
+        text-align:center; 
+    }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .content-container {
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    .content-img img{
+        width: 600px;
+        /* height: 300px; */
+    }
+
+    .content-info h1 {
+        margin-top: 65px;
+        font-size: 45px;
+        text-align:center;        
+    }
+}
+
+/* @media screen and (min-width: 1024px) { } */
