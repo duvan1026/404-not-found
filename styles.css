@@ -28,3 +28,21 @@ h2 {
     font-weight: 700;
 
 }
+
+.content-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-img img {
+    width: 539px;
+    height: 447px;
+
+}
+
+.content-info h1 {
+    font-size: 30px;
+    font-family: 'Space Mono', monospace;
+}
